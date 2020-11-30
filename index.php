@@ -4,12 +4,6 @@ session_start();
 
 define("ROOT", dirname(__FILE__));
 
-
-// ini_set('error_reporting', E_ALL);
-// ini_set('display_errors', 1);
-// ini_set('display_startup_errors', 1);
-
-
 function debug($value)
 {
 
@@ -36,7 +30,6 @@ function debug($value)
 
 
 require_once(ROOT.'/vendor/autoload.php');
-
 
 $db = \DB\DB::Connect();
 
